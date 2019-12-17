@@ -15,3 +15,15 @@
  	```sh
 	"owner": "nameOwner"
 	```
+
+
+!(Preview Transaction)[bcpreview_3.jpg]
+
+
+
+!(Preview Wallet)[bcpreview_2.jpg]
+
+
+
+!(Preview Chain)[bcpreview_1.jpg]
+

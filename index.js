@@ -128,18 +128,20 @@ class Blockchain{
             let balance = 0;
     
             for(const block of this.chain){
+
+                for(const trans of block.transactions){
                 
-                    if(block.transaction.sender == address){
-                        balance -= bill.amount;
+                    if(trans.sender === address){
+                        balance -= trans.amount;
                     }
-                    if(block.transaction.recipient == address){
-                        balance += bill.amount;
+                    if(trans.recipient === address){
+                        balance += trans.amount;
                     }
+                }
                 
             }
     
             return balance;
-    
         }
     
         isChainValid(){
