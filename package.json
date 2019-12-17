@@ -1,0 +1,27 @@
+{
+  "name": "blockchainapi",
+  "version": "1.0.0",
+  "description": "basic one file blockchain api",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "finqen"
+  },
+  "keywords": [
+    "blockchain",
+    "api"
+  ],
+  "author": "finqen",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "crypto-js": "^3.1.9-1",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1"
+  }
+}
